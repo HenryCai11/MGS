@@ -3,3 +3,5 @@ __pycache__/
 *.log
 *.pyc
 .ipy
+scripts/slurm/logs/
+checkpoints/

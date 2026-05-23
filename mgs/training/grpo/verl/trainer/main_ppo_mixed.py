@@ -427,8 +427,8 @@ def create_rl_dataset(data_paths, data_config, tokenizer, processor, is_train=Tr
         else:
             dataset = dataset_cls(
                 data_files_dict={
-                    'math': ['/root/paddlejob/workspace/env_run/output/work/verl/data/simplerl_level3to5/test_clean.parquet'],
-                    # 'chat': ['/root/paddlejob/workspace/env_run/output/work/RLMT/training/ppo_grpo/data/wildchat-if_test.parquet']
+                    'math': ['mgs/training/grpo/data/simplerl_level3to5/test_clean.parquet'],
+                    # 'chat': ['mgs/training/grpo/data/wildchat-if_val.parquet']
                 },
                 tokenizer=tokenizer,
                 config=data_config,
